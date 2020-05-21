@@ -7,7 +7,7 @@ This website represents a fictional streaming service called Action+. It offers 
 * **Section (Devices)**: Title, Description, Animated Icons
 * **Section (Content)**: Images, Title, Description
 * **Section (Download)**: Title, Description, Icon
-* **Section (Subscriptions)**: 3x (Title, List of Features, "Learn More" Button)
+* **Section (Subscriptions)**: 3x (Title, List of Features)
 * **Section (Sign Up)**: Input, Description, "Try It Now" Button
 * **Footer**: Social Media, Copyright and more
 ### Additional information
