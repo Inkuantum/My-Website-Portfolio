@@ -70,6 +70,11 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
 /* ----- PARAGRAPHS ----- */
 
 .description {
@@ -153,7 +158,7 @@ nav a {
     margin-top: 20px;
 }
 
-/* ----- DEVICES ----- */
+/* ----- DEVICES & DOWNLOAD ----- */
 
 .big-icon {
     display: block;
@@ -171,4 +176,64 @@ nav a {
     width: auto;
     margin-left: 40px;
     border: 1px solid #fff;
+}
+
+/* ----- PLANS ----- */
+.section-plans:last-child {
+    background-color: #fff;
+}
+.plan-box {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div:not(.small-icon){
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.plan-box div:last-child {
+    border: 0;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-box ul {list-style: none;}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.small-icon {
+    float: left;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /* sec to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+.highlight {
+    background-color: #fff;
+    color: #000;
+}
+
+.highlight div:first-child:not(.small-icon){
+    border-bottom: 1px solid #000;
 }
