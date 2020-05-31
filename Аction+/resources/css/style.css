@@ -86,10 +86,6 @@ h4 {
 
 /* ----- BUTTONS ----- */
 
-button {
-    
-}
-
 .btn:link,
 .btn:visited,
 input[type=submit]{
@@ -173,14 +169,44 @@ nav a {
 
 /* ----- CONTENT ----- */
 
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    top: -60px;
+}
+
 .section-content img {
     display: inline-block;
+    margin-left: 4px;
+}
+
+.section-content img {
     height: 200px;
     width: auto;
-    margin-left: 40px;
     border: 1px solid #fff;
 }
 
+.scroll {
+    font-size: 300%;
+    color: #fff;
+}
+
+button:first-child{
+    margin-left: 0;
+}
+
+.note {
+    color: #a3a3a3;
+    text-transform: uppercase;
+    font-size: 70%;
+    text-align: center;
+    margin-top: 10px;
+}
 /* ----- PLANS ----- */
 
 .section-plans:last-child {
