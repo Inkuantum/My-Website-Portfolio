@@ -169,18 +169,7 @@ nav a {
 
 /* ----- CONTENT ----- */
 
-button {
-    background-color: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    display: inline-block;
-    position: relative;
-    top: -60px;
-}
-
-.section-content img {
+.section-content img, button {
     display: inline-block;
     margin-left: 4px;
 }
@@ -189,6 +178,18 @@ button {
     height: 200px;
     width: auto;
     border: 1px solid #fff;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    top: inherit;
+    text-align: center;
 }
 
 .scroll {
@@ -217,6 +218,7 @@ button:first-child{
     border-radius: 10px;
     width: 90%;
     margin-left: 5%;
+    flex: 1;
 }
 
 .plan-box div:not(.small-icon){
@@ -268,6 +270,9 @@ button:first-child{
     border-bottom: 1px solid #000;
 }
 
+.flex-container {
+    display: flex;
+}
 /* ----- SIGN UP ----- */
 
 .section-sign-up {
