@@ -7,8 +7,10 @@ This website represents a fictional streaming service called Action+. It offers 
 * **Section (Devices)**: Title, Description, Animated Icons
 * **Section (Content)**: Images, Title, Description
 * **Section (Download)**: Title, Description, Icon
-* **Section (Subscriptions)**: 3x (Title, List of Features)
-* **Section (Sign Up)**: Input, Description, "Try It Now" Button
-* **Footer**: Social Media, Copyright and more
+* **Section (Subscriptions)**: 3x (Title, Price, List of Features)
+* **Section (Sign Up)**: Input, Description, "Sign Up Now" Button
+* **Footer**: Copyright, Menu, Author and Social Media
+### Which languages and frameworks were used?
+This website was made using HTML, CSS and pure Javascript.
 ### Additional information
-All vendors and images (not created by me) are linked in the source.pdf.
+All vendors and images (not created by me) are linked in the source.txt.
