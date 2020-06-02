@@ -178,7 +178,6 @@ nav a {
     height: 200px;
     width: auto;
     border: 1px solid #fff;
-    text-align: center;
 }
 
 button {
@@ -189,7 +188,6 @@ button {
     overflow: hidden;
     position: relative;
     top: inherit;
-    text-align: center;
 }
 
 .scroll {
@@ -205,9 +203,11 @@ button:first-child{
     color: #a3a3a3;
     text-transform: uppercase;
     font-size: 70%;
-    text-align: center;
     margin-top: 10px;
 }
+
+.center {text-align: center;}
+
 /* ----- PLANS ----- */
 
 .section-plans:last-child {
@@ -277,6 +277,10 @@ button:first-child{
 
 .section-sign-up {
     text-align: center;
+}
+
+.section-sign-up h2{
+    display: none;
 }
 
 input {
