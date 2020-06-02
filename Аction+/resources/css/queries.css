@@ -162,6 +162,7 @@
     .section-content .col:first-child,
     .section-content .col:last-child
     {
+        -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
     
