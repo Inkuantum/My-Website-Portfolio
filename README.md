@@ -13,3 +13,4 @@ This website represents a fictional streaming service called Action+. It offers 
 This website was made using HTML, CSS and pure Javascript.
 ## Additional information
 All vendors and images (not created by me) are linked in the source.txt.
+You can check out the website demo [here](https://pedantic-boyd-67cb48.netlify.app/).
